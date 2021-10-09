@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/images/ramadan2.jpeg);
+    background-image: url(./images/ramadan2.jpeg);
     margin: 0;
     background-size: cover;
     /* background-position: center center; */
@@ -38,7 +38,7 @@ h1{
 }
 @media screen and (width: 3440px) {
     body{
-        background-image: url(/images/moon.jpg);
+        background-image: url(./images/moon.jpg);
     }
     .countdown-el{
         color: rgb(56, 119, 213);

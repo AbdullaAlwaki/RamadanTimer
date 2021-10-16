@@ -34,14 +34,14 @@ function updateClock() {
         hou = now.getHours(),
         min = now.getMinutes(),
         sec = now.getSeconds(),
-        pe = "PM";
+        pe = "Am";
     
     if (hou == 0) {
         hou = 12;
     }
     if (hou > 12) {
         hou = hou - 12;
-        pe = "AM";
+        pe = "PM";
     }
 
     Number.prototype.pad = function (digits){

@@ -49,6 +49,7 @@ h1 {
   width: 30%;
   height: 20%;
   padding: 15px 10px;
+  margin-top: 35%;
   border: 3px solid #2E94E3;
   border-radius: 5px;
   -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255,255,255,0.1));
@@ -91,24 +92,57 @@ h1 {
 
 /* media */
 @media screen and (width: 3440px) {
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
   body {
-    background-image: url(../images/moon.jpg);
+    /* background-image: url(../images/moon.jpg); */
+    font-family: 'Indie Flower', cursive;
   }
   .countdown-el {
     color: rgb(56, 119, 213);
+  }
+  .datetime{
+    margin-top: 20%;
+    background: none;
+    border: none;
+    width: 40%;
+    height: 25%;
+    padding-top: 1%;
+    font-family: 'Indie Flower', cursive;
+  }
+  .date{
+    font-size: 90px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+  .time{
+    font-size: 90px;
+    color: black;
+  }
+  .datetime:hover{
+    background: none;
+    box-shadow: 0 0 0;
   }
 }
 @media screen and (max-width: 850px) {
   body {
     background-image: url(../images/phonemoon.jpg);
+    padding-top: 70%;
   }
   .countdown-el {
     color: rgb(56, 119, 213);
     }
-    h1 {
-        font-size: 6rem;
-        margin-top: 3px;
-        text-align: center;
-      }
-  
+    .datetime{
+      color: #fff;
+      width: 80%;
+      position: absolute;
+      bottom: 30%;
+    }
+    .date{
+      font-size: 25px;
+      font-weight: 600;
+    }
+    .time{
+      font-size: 45px;
+    }
 }

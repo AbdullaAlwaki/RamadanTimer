@@ -1,3 +1,3 @@
 # RamadanTimer
 
-[Try me](https://abdullaalwaki.github.io/RamadanTime/)
+[Try me](https://abdullaalwaki.github.io/RamadanTimer/)

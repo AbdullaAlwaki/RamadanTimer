@@ -18,7 +18,7 @@ body {
 h1 {
   font-weight: normal;
   font-size: 4rem;
-  margin-top: -50rem;
+  margin-top: -30rem;
 }
 .countdown-container {
   display: flex;
@@ -29,9 +29,9 @@ h1 {
 
 .big-text {
   font-weight: bold;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 1;
-  margin: 0 2rem;
+  margin: 2rem 2rem;
 }
 
 .countdown-el {
@@ -62,30 +62,30 @@ h1 {
 }
 
 .date{
-  font-size: 45px;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   letter-spacing: 3px;
 }
 .time{
-  font-size: 90px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .time span:not(:last-child){
   position: relative;
-  margin: 0 6px;
+  margin: 25px 6px;
   font-weight: 600;
   text-align: center;
   letter-spacing: 3px;
 }
 .time span:last-child{
   background: #2E94E3;
-  font-size: 50px;
+  font-size: 39px;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin-top: px;
   padding: 0 5px;
   border-radius: 3px;
 }
@@ -139,10 +139,15 @@ h1 {
       bottom: 30%;
     }
     .date{
-      font-size: 25px;
+      font-size: 20px;
       font-weight: 600;
     }
     .time{
-      font-size: 45px;
+      font-size: 28px;
+    }
+    h1 {
+      font-weight: normal;
+      font-size: 2rem;
+      margin-top: -40rem;
     }
 }
